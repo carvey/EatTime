@@ -78,8 +78,8 @@ tracker@1.0.7
 ui@1.0.6
 underscore@1.0.3
 url@1.0.4
-useraccounts:core@1.8.1
-useraccounts:semantic-ui@1.8.1
+useraccounts:core@1.11.1
+useraccounts:semantic-ui@1.11.1
 webapp@1.2.0
 webapp-hashing@1.0.3
 wizonesolutions:underscore-string@1.0.0
