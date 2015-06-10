@@ -1,0 +1,45 @@
+<template name="sidebar">
+    <div id="menu" class="ui very wide left vertical inverted labeled icon sidebar menu">
+        <h2 class="ui header" style="color: white; margin-top: 20px">
+            Match Settings
+        </h2>
+
+        <div id="settings">
+            <div class="ui form">
+                <div class="ui label" id="timing-label">
+                    <label> Select how long you want each match to last. We'll do the heavy lifting.</label>
+                </div>
+                <div class="ui buttons">
+                    <div class="ui button">10 Minutes</div>
+                    <div class="ui button">20 Minutes</div>
+                    <div class="ui button">30 Minutes</div>
+                </div>
+                <div class="ui mini labeled input" id="custom-timing">
+                    <div class="ui label">
+                        Custom (in minutes):
+                    </div>
+                    <input type="number" placeholder="0">
+                </div>
+
+                <div class="ui label" id="seed-number">
+                    <label> Select how many seeds you would like the tournament to have.</label>
+                </div>
+
+                <select class="ui dropdown" id="seed-select">
+                    <option value="">Seed Number</option>
+                    <option value="4">4</option>
+                    <option value="4">8</option>
+                    <option value="4">16</option>
+                    <option value="4">32</option>
+                </select>
+
+                <div class="ui mini labeled input" id="custom-seeds">
+                    <div class="ui label">
+                        Custom #:
+                    </div>
+                    <input type="number" placeholder="0">
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
