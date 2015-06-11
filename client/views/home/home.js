@@ -31,7 +31,7 @@ Template.home.rendered = function () {
       height:'700px',
       scale:0.65,
       icons:true,
-      rectFill: '#A9A9A9',
+      rectFill: '#3d3d3d',
       teamNames:
       [
           {
